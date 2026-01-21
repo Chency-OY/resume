@@ -137,10 +137,7 @@ new-structure/
 欢迎贡献！请随时提交Pull Request。
 
 ## 👨‍💻 作者
-
-**陈曦欧**
-- 生物医学与人工智能研究者
-- 网站: [陈曦欧的简历](http://localhost:5173)
+Chenxi Ouyang
 
 ---
 
