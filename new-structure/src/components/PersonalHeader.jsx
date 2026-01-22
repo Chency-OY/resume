@@ -10,7 +10,7 @@ const PersonalHeader = () => {
     desc: language === 'zh' 
       ? "期待一切生物、医学、人工智能领域老师和同学的指导与合作"
       : "Look forward to guidance and collaboration from teachers and students in biology, medicine, and AI fields.",
-    avatar: "https://haisnap.tos-cn-beijing.volces.com/image/05dd2b87-5f66-4e11-b1f8-288836ecee5d_1764863391669.jpg"
+    avatar: "https://via.placeholder.com/300x300?text=Chenxi+Ouyang"
   };
 
   return (
