@@ -11,8 +11,8 @@ const Publications = () => {
       categoryEn: 'Academic Service',
       items: [
         {
-          title: '受邀担任第4届医学图像计算与计算机辅助干预（MICCAI）2025会议独立审稿人',
-          titleEn: 'Invited as Independent Reviewer for the 4th Medical Image Computing and Computer Assisted Intervention (MICCAI) 2025 Conference',
+          title: '担任第4届医学图像计算与计算机辅助干预（MICCAI）2025会议审稿人',
+          titleEn: 'Reviewer for the 4th Medical Image Computing and Computer Assisted Intervention (MICCAI) 2025 Conference',
           details: '[会议评级：CCF-B，医学影像计算与计算机辅助介入领域公认影响力最大的顶级国际学术会议。]',
           detailsEn: '[Conference Ranking: CCF-B, the most influential top international academic conference in medical image computing and computer-assisted intervention.]'
         }
