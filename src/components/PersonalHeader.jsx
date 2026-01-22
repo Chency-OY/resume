@@ -6,7 +6,8 @@ const PersonalHeader = () => {
 
   const data = {
     name: "Chenxi Ouyang",
-    role: language === 'zh' ? "南京遥察科技有限公司 执行董事、法人代表" : "Executive Director & Legal Representative, Nanjing Yaocha Technology Co., Ltd.",
+    role: language === 'zh' ? "南京遥察科技有限公司 执行董事、法人代表 | Biomedical & AI Researcher" : "Executive Director & Legal Representative, Nanjing Yaocha Technology Co., Ltd. | Biomedical & AI Researcher",
+    researchDirection: language === 'zh' ? "研究方向聚焦RNA设计算法，空间转录组相关算法" : "Research focus on RNA design algorithms and spatial transcriptomics related algorithms",
     desc: language === 'zh' 
       ? "期待一切生物、医学、人工智能领域老师和同学的指导与合作"
       : "Look forward to guidance and collaboration from teachers and students in biology, medicine, and AI fields.",
@@ -37,9 +38,12 @@ const PersonalHeader = () => {
           <h1 className="text-3xl md:text-4xl font-light text-[#4A3B32] mb-2 tracking-wide" style={{ fontFamily: "'Helvetica Neue Light', sans-serif" }}>
             {data.name}
           </h1>
-          <h2 className="text-lg md:text-xl text-[#6D5A4B] mb-4 font-light">
+          <h2 className="text-lg md:text-xl text-[#6D5A4B] mb-2 font-light">
             {data.role}
           </h2>
+          <div className="text-sm md:text-base text-gray-500 mb-4 italic">
+            {data.researchDirection}
+          </div>
           
           <div className="inline-block bg-white/60 backdrop-blur-sm rounded-lg px-5 py-3 border border-[#D4AF37]/20 shadow-sm max-w-2xl transform transition-all duration-300 hover:shadow-md hover:bg-white/80">
             <p className="text-sm md:text-base text-gray-600 font-light leading-relaxed italic">
