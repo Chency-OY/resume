@@ -6,7 +6,7 @@ const PersonalHeader = () => {
 
   const data = {
     name: "Chenxi Ouyang",
-    role: language === 'zh' ? "生物医学与人工智能研究者" : "Biomedical & AI Researcher",
+    role: language === 'zh' ? "南京遥察科技有限公司 执行董事、法人代表" : "Executive Director & Legal Representative, Nanjing Yaocha Technology Co., Ltd.",
     desc: language === 'zh' 
       ? "期待一切生物、医学、人工智能领域老师和同学的指导与合作"
       : "Look forward to guidance and collaboration from teachers and students in biology, medicine, and AI fields.",
