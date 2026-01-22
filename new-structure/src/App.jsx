@@ -193,7 +193,7 @@ const App = () => {
     // 模拟资源预加载，给予Loader展示时间
     const timer = setTimeout(() => setIsLoading(false), 1200);
     // 动态设置页面标题，遵循法规要求
-    document.title = "Resume of Chenxi Ouyang By HAISNAP";
+    document.title = "Personal Website of Chenxi Ouyang";
     return () => clearTimeout(timer);
   }, []);
 
